@@ -7,7 +7,10 @@ initially To setup As intended You need a TFT display 16*2 and a RTC module DS13
 [Note : If Time from RTC can't be during the ESP8266 start read/( faluty connection may or RTC damaged) TFT display will show "** RTC not WORKING ** " error]
 
 Step 1: connect modules through I2C 
+
 Step 2: You may configure (Default )wifi settings in the Arduino code or you may upload the code and change the final connectivity configuration through the webpage 
+
+
 Step 3: follow the TFT display 
             1st line on the left side shows the WIFI name [Note : if configured wifi not present, Esp8266 will run in accesspoint mode with default connection parameters]
             1st line on the right side shows the configured time {if not in operating phase: it will show start time else if in operating phase it will show end Time}
