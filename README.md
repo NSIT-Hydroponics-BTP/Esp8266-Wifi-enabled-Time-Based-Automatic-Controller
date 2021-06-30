@@ -3,6 +3,7 @@ This controller Allows the setting HP system time and once set can be left free 
 
 Note: every paramerte you set through the webpage will be stored in the internal Fie system of the Module[hence power outage will have no affect and module will continue to function as intended once power is restored]
 
+Link to video: 
 
 initially To setup As intended You need a TFT display 16*2 and a RTC module DS1307(time should be already set)
 [Note : RTC is needed just at the start of ESP8266 , post which ESP8266 sync its internal clock to that of RTC clock] you may remove RTC post connection with wifi has been estblished
