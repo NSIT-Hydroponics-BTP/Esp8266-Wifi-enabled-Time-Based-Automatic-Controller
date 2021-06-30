@@ -1,6 +1,8 @@
 # Esp8266-Wifi-enabled-Time-Based-Automatic-Controller
 This controller Allows the setting HP system time and once set can be left free and will show the content on display
 
+Note: every paramerte you set through the webpage will be stored in the internal Fie system of the Module[hence power outage will have no affect and module will continue to function as intended once power is restored]
+
 
 initially To setup As intended You need a TFT display 16*2 and a RTC module DS1307(time should be already set)
 [Note : RTC is needed just at the start of ESP8266 , post which ESP8266 sync its internal clock to that of RTC clock] you may remove RTC post connection with wifi has been estblished
@@ -18,3 +20,8 @@ Step 3: follow the TFT display
             2nd line to the right will show animation [2 type of animation are possible : 1 for when esp8266 operating in station mode and other for when it is operating in accesspoint mode ]
             2nd line left from the animation: will show time [only the ongoing minute hand]
 
+Step 4: connect 3.3v relay to esp8266 pin 
+                        GPIO 12:  Light- D6 on the ESP8266
+                        GPIO 13:  Pump -D7 on the ESP8266
+                        
+ 
